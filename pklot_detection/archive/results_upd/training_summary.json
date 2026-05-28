@@ -1,0 +1,18 @@
+{
+  "final_run_dir": "/kaggle/working/runs/pklot_yolo11n_final",
+  "best_weights": "/kaggle/working/final_model_artifacts/best_yolo11n.pt",
+  "last_weights": "/kaggle/working/final_model_artifacts/last_yolo11n.pt",
+  "data_yaml": "/kaggle/working/pklot_yolo_runtime/dataset.yaml",
+  "model_name": "yolo11n.pt",
+  "imgsz": 640,
+  "batch": 8,
+  "lr0": 0.005,
+  "final_epochs": 20,
+  "validation_metrics": {
+    "metrics/precision(B)": 0.9981651975650017,
+    "metrics/recall(B)": 0.9917027915522327,
+    "metrics/mAP50(B)": 0.9927782794385267,
+    "metrics/mAP50-95(B)": 0.9683714359886177,
+    "fitness": 0.9683714359886177
+  }
+}

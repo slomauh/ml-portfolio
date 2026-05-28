@@ -1,6 +1,6 @@
 # ML Portfolio
 
-This repository contains three machine learning projects built as standalone notebook-based case studies.
+This portfolio includes projects in machine learning and computer vision. The tabular ML part covers data preprocessing, feature engineering, model training, and comparison for customer churn prediction and Game of Thrones character survival classification. The CV part includes medical image segmentation in `PyTorch` and object detection with `YOLO` for parking space analysis. The main focus across all projects is the full pipeline: data preparation, experimentation, model evaluation, and result analysis.
 
 ## Projects
 
@@ -19,6 +19,11 @@ This repository contains three machine learning projects built as standalone not
 - Includes `SegNet`, `UNet`, and experiments with `BCE`, `Dice`, and `Focal Loss`.
 - Main metric: `IoU`.
 
+### 4. PKLot Parking Space Detection
+- Computer vision project for parking space detection and occupancy recognition based on the PKLot dataset.
+- Includes conversion from COCO annotations to YOLO format, model training with Ultralytics YOLO, and evaluation with confusion matrices and validation metrics.
+- Main metrics: `Precision`, `Recall`, `mAP@50`, `mAP@50-95`.
+
 ## Repository Structure
 
 ```text
@@ -32,6 +37,9 @@ ml-portfolio/
   skin-lesion-segmentation/
     skin_lesion_segmentation.ipynb
     README.md
+  pklot_detection/
+    parking_space_detection_yolo.ipynb
+    README.md
 ```
 
 ## Tech Stack
@@ -43,6 +51,7 @@ ml-portfolio/
 - scikit-learn
 - CatBoost
 - PyTorch
+- Ultralytics YOLO
 
 ## Notes
 

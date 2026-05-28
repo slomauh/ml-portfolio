@@ -1,0 +1,8 @@
+{
+  "model_name": "yolo11n.pt",
+  "imgsz": 640,
+  "batch": 8,
+  "lr0": 0.005,
+  "sweep_epochs": 3,
+  "selection_metric": "mAP50-95"
+}
